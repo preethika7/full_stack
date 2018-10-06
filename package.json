@@ -1,28 +1,21 @@
 {
-  "name": "full_stack",
+  "name": "web-design",
   "version": "1.0.0",
-  "description": "\"This is a test directory for learning Node ",
+  "description": "This is a website for learning Bootstrap",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite":"lite-server"
+    "lite": "lite-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/preethika7/full_stack.git"
-  },
-  "keywords": [
-    "Node",
-    "Web"
-  ],
-  "author": "Preethika Pachaiyappa",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/preethika7/full_stack/issues"
-  },
-  "homepage": "https://github.com/preethika7/full_stack#readme",
+  "author": "Preethika",
+  "license": "2018",
   "devDependencies": {
-    "lite-server": "^2.4.0"
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4"
   }
 }
